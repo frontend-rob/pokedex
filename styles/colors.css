@@ -1,0 +1,94 @@
+.pokemon-type-bug {
+    background: linear-gradient(to bottom, hsla(78, 62%, 45%, var(--alpha)), hsla(76, 59%, 50%, var(--alpha)));
+}
+
+.pokemon-type-dark {
+    background: linear-gradient(to bottom, hsla(252, 5%, 36%, var(--alpha)), hsla(0, 0%, 35%, var(--alpha)));
+}
+
+.pokemon-type-dragon {
+    background: linear-gradient(to bottom, hsla(210, 89%, 42%, var(--alpha)), hsla(215, 53%, 65%, var(--alpha)));
+}
+
+.pokemon-type-electric {
+    background: linear-gradient(to bottom, hsla(51, 86%, 63%, var(--alpha)), hsla(44, 74%, 70%, var(--alpha)));
+}
+
+.pokemon-type-fire {
+    background: linear-gradient(to bottom, hsla(31, 96%, 64%, var(--alpha)), hsla(30, 93%, 70%, var(--alpha)));
+}
+
+.pokemon-type-fairy {
+    background: linear-gradient(to bottom, hsla(305, 73%, 75%, var(--alpha)), hsla(325, 52%, 76%, var(--alpha)));
+}
+
+.pokemon-type-fighting {
+    background: linear-gradient(to bottom, hsla(348, 62%, 54%, var(--alpha)), hsla(356, 50%, 60%, var(--alpha)));
+}
+
+.pokemon-type-flying {
+    background: linear-gradient(to bottom, hsla(219, 66%, 78%, var(--alpha)), hsla(228, 36%, 75%, var(--alpha)));
+}
+
+.pokemon-type-ghost {
+    background: linear-gradient(to bottom, hsla(231, 41%, 55%, var(--alpha)), hsla(228, 35%, 50%, var(--alpha)));
+}
+
+.pokemon-type-grass {
+    background: linear-gradient(to bottom, hsla(116, 43%, 54%, var(--alpha)), hsla(120, 34%, 60%, var(--alpha)));
+}
+
+.pokemon-type-ground {
+    background: linear-gradient(to bottom, hsla(20, 66%, 58%, var(--alpha)), hsla(20, 49%, 70%, var(--alpha)));
+}
+
+.pokemon-type-ice {
+    background: linear-gradient(to bottom, hsla(170, 49%, 64%, var(--alpha)), hsla(173, 39%, 70%, var(--alpha)));
+}
+
+.pokemon-type-normal {
+    background: linear-gradient(to bottom, hsla(100, 2%, 63%, var(--alpha)), hsla(60, 5%, 65%, var(--alpha)));
+}
+
+.pokemon-type-poison {
+    background: linear-gradient(to bottom, hsla(287, 53%, 60%, var(--alpha)), hsla(282, 42%, 65%, var(--alpha)));
+}
+
+.pokemon-type-psychic {
+    background: linear-gradient(to bottom, hsla(2, 92%, 74%, var(--alpha)), hsla(7, 87%, 75%, var(--alpha)));
+}
+
+.pokemon-type-rock {
+    background: linear-gradient(to bottom, hsla(47, 37%, 66%, var(--alpha)), hsla(44, 30%, 70%, var(--alpha)));
+}
+
+.pokemon-type-steel {
+    background: linear-gradient(to bottom, hsla(191, 31%, 49%, var(--alpha)), hsla(192, 30%, 50%, var(--alpha)));
+}
+
+.pokemon-type-water {
+    background: linear-gradient(to bottom, hsla(208, 69%, 60%, var(--alpha)), hsla(213, 54%, 70%, var(--alpha)));
+}
+
+.pokemon-type-bug,
+.pokemon-type-dark,
+.pokemon-type-dragon,
+.pokemon-type-electric,
+.pokemon-type-fire,
+.pokemon-type-fairy,
+.pokemon-type-fighting,
+.pokemon-type-flying,
+.pokemon-type-ghost,
+.pokemon-type-grass,
+.pokemon-type-ground,
+.pokemon-type-ice,
+.pokemon-type-normal,
+.pokemon-type-poison,
+.pokemon-type-psychic,
+.pokemon-type-rock,
+.pokemon-type-steel,
+.pokemon-type-water {
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+}

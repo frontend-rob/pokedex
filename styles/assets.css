@@ -1,0 +1,92 @@
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    gap: .5rem;
+    height: 3rem;
+    padding: 0 1rem;
+    background-color: color-mix(in srgb, var(--bg-neutral) 70%, transparent 70%);
+    color: var(--base-content);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: transform 100ms cubic-bezier(0, 0, 0.2, 1), background-color 100ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+.btn svg {
+    height: 1.25rem;
+    width: 1.25rem;
+    fill: var(--base-content);
+}
+
+.btn:active {
+    transform: scale(0.97);
+}
+
+.btn:hover {
+    background-color: var(--bg-neutral);
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    color: var(--primary-content);
+}
+
+.btn-primary svg {
+    fill: var(--primary-content);
+}
+
+.btn-primary:hover {
+    background-color: color-mix(in srgb, var(--primary) 70%, var(--bg-neutral) 30%);
+}
+
+.btn-neutral {
+    background-color: var(--bg-neutral);
+}
+
+.btn-neutral:hover {
+    background-color: color-mix(in srgb, var(--bg-neutral) 90%, var(--base-content) 20%);
+}
+
+.btn-glass {
+    background-color: var(--glass);
+    border: 1px solid var(--glass-border);
+}
+
+.btn-glass:hover {
+    background-color: color-mix(in srgb, var(--glass) 100%, var(--base-content) 20%);
+}
+
+.btn-ghost {
+    background-color: transparent;
+}
+
+.btn-ghost:hover {
+    background-color: color-mix(in srgb, var(--bg-neutral) 100%, transparent 30%);
+}
+
+.btn-outline {
+    background-color: var(--bg-base-100);
+    border: 1px solid var(--bg-neutral);
+}
+
+.btn-circle {
+    height: 2.5rem;
+    width: 2.5rem;
+    padding: 0;
+    border-radius: 9999rem;
+}
+
+.btn.active {
+    background-color: var(--bg-neutral);
+}
+
+.btn.active svg {
+    fill: var(--primary);
+}

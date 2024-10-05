@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Simple Pokédex application with API.">
+    <meta name="theme-color" content="var(--bg-base-100)">
+
+    <title>Pokédex</title>
+
+    <link rel="shortcut icon" href="./assets/img/pokeball.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="stylesheet" href="./styles/assets.css">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/colors.css">
+    <link rel="stylesheet" href="./styles/icons.css">
+    <link rel="stylesheet" href="./styles/card.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body onload="init()">
+
+    <header id="header-content"></header>
+
+    <div id="search-container" class="search-modal hidden">
+        <div class="search-modal-content">
+            <div class="search-modal-header">
+                <h2>Search</h2>
+                <button class="btn btn-circle" aria-label="close-modal-btn" onclick="closeSearchModal()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 256 256">
+                        <path
+                            d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z">
+                        </path>
+                    </svg>
+                </button>
+            </div>
+            <div class="search-modal-inner">
+                <div class="search-modal-results">
+                    <form class="search-bar">
+                        <input id="search-input" type="search" minlength="3" placeholder="Pokémon name...">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 256 256">
+                            <path
+                                d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z">
+                            </path>
+                        </svg>
+                    </form>
+                    <div id="search-results" class="search-suggestions hidden"></div>
+                </div>
+                <div id="search-modal-text" class="discover-text show">
+                    <h3>Discover your favorite Pokémon!</h3>
+                    <p>Dive into the world of Pokémon and find detailed stats, evolutions, and abilities for every creature in the Pokédex.</p>
+                </div>
+                <div class="search-modal-footer">
+                    <img src="./assets/img/pokeball.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="pokemonModal" class="detail-modal hidden"></div>
+
+    <main>
+
+        <div id="loader" class="loader hidden">
+            <img class="pokeball-loader" src="./assets/img/pokeball.svg" alt="Pokéball Image">
+            <h3>Loading...</h3>
+        </div>
+
+        <div id="card-content" class="cards-container"></div>
+
+    </main>
+
+    <div class="button-container">
+        <button class="btn btn-neutral" aria-label="load-more-btn" onclick="loadMorePokemon()">Load more Pokémon</button>
+    </div>
+
+
+    <footer id="footer-content"></footer>
+
+    <script src="./js/templates.js"></script>
+    <script src="./js/theme.js"></script>
+    <script src="./script.js"></script>
+    <script src="./js/search.js"></script>
+    <script src="./js/utils.js"></script>
+</body>
+
+</html>
