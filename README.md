@@ -38,12 +38,19 @@ Once the code is cloned/downloaded, navigate to the project directory on your co
 <br>
 
 ## Contributing
-Since this is a personal learning project, contributions are not expected. However, if you spot something or want to suggest improvements, feel free to open an issue or create a pull request!
+
+Though contributions aren’t expected for this personal learning project, I’m always open to feedback, suggestions, or creative ideas. If you have any thoughts or would like to share something, feel free to reach out!
 
 <br>
 
 ## License
 
-This project's source code is open-source and available under the MIT License. You are welcome to use it as a learning reference. Please note the following:
+This project's source code is open-source and available under the MIT License. You are welcome to use it as a learning reference.
 
-- Icons used in this project are from [Phosphor Icons](https://phosphoricons.com/) and are subject of the MIT License.
+Please note the following information:
+
+- Pokémon type icons are sourced from [duiker101](https://github.com/duiker101/pokemon-type-svg-icons).
+- Basic icons are sourced from [Phosphor Icons](https://phosphoricons.com/).
+- The topography pattern comes from [Hero Patterns](https://heropatterns.com/).
+
+For specific licensing details, please review the respective websites.
