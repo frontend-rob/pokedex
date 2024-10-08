@@ -8,7 +8,7 @@
 }
 
 :root {
-    --bg-base-100: #fafafa;
+    --bg-base-100: #f5f4f0;
     --bg-base-200: #dedede;
     --bg-base-300: #efefef;
     --bg-neutral: #e0e0e0;
@@ -27,7 +27,7 @@
 }
 
 html[data-theme="light"] {
-    --bg-base-100: #fafafa;
+    --bg-base-100: #f5f4f0;
     --bg-base-200: #dedede;
     --bg-base-300: #efefef;
     --bg-neutral: #e0e0e0;
@@ -67,7 +67,7 @@ html[data-theme="dark"] {
 body {
     display: flex;
     flex-direction: column;
-    background-color: var(--bg-base-300);
+    background-color: var(--bg-base-100);
     min-height: 100vh;
     gap: 3rem;
     overflow-y: auto;

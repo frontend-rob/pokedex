@@ -23,8 +23,8 @@ function applyTheme(theme) {
 
 function updateMetaThemeColor(theme) {
     const themeColorMetaTag = document.querySelector('meta[name="theme-color"]');
-    const lightThemeColor = 'var(--bg-base-100)';
-    const darkThemeColor = 'var(--bg-base-100)';
+    const lightThemeColor = '#f5f4f0';
+    const darkThemeColor = '#292927';
 
     themeColorMetaTag.setAttribute('content', theme === 'dark' ? darkThemeColor : lightThemeColor);
 }
