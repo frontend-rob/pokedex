@@ -19,6 +19,11 @@ Here's an overview of the key functionalities:
 
 <br>
 
+## Preview
+
+![mockup-pokedex-mobile](https://github.com/user-attachments/assets/d524e401-e9a4-4c62-977b-d4f291ee43f0)
+![mockup-pokedex-mbair](https://github.com/user-attachments/assets/dc58074a-84f2-49f1-bcda-cba8b5bdec8f)
+
 ## Setup Instructions
 
 To run this project locally, follow these steps:
