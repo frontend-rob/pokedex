@@ -1,6 +1,6 @@
 # Pokédex
 
-This project is part of the Frontend Web Development course from the [Developer Akademie.](https://developerakademie.com/) 
+This project has been developed as part of the frontend development bootcamp at the [Developer Akademie.](https://developerakademie.com/)
 
 <mark>NOTE:</mark> This is a learning project, so some features may not be fully functional or implemented. The main focus is on developing specific skills, like working with API data and integrating it throughout the app.
 
