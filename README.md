@@ -33,7 +33,7 @@ To run this project locally, follow these steps:
 Download the source code by clicking the <kbd>Code</kbd> button or clone the repository using Git:
 
 ```
-git clone https://github.com/robsc0de/pokedex.git
+git clone https://github.com/frontend-rob/pokedex.git
 ```
 
 2. Start the Application
